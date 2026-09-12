@@ -1,0 +1,18 @@
+[
+  {
+    "tag": "UA",
+    "name": "Україна",
+    "flag": "flags/UA.png",
+    "ideology": "DEMOCRACY",
+    "religion": "ORTHODOX",
+    "color": "FF0000"
+  },
+  {
+    "tag": "RU",
+    "name": "Россия",
+    "flag": "flags/RU.png",
+    "ideology": "AUTHORITARIAN",
+    "religion": "ORTHODOX",
+    "color": "FFF000"
+  }
+]
