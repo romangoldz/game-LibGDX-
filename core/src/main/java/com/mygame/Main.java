@@ -21,10 +21,10 @@ public class Main implements ApplicationListener {
 
     @Override
     public void render() {
+        batch.begin();
         batch.draw(img, 100, 100, 200, 200);
-
-        if (Gdx.input.isTouched()) {
-            ScreenUtils.clear(0.2f, 0.1f, 0.2f, 1f);
+        ScreenUtils.clear(0.2f, 0.1f, 0.2f, 1f);
+        batch.end();
         }
     }
 
@@ -40,6 +40,7 @@ public class Main implements ApplicationListener {
 
     @Override
     public void dispose() {
-        
+        batch.dispose();
+        img.dispose();
     }
 }
