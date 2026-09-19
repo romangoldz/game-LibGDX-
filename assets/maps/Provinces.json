@@ -1,6 +1,0 @@
-{
-  "provinces": [
-    { "id": 1, "owner": "UA", "name": "Київ" },
-    { "id": 2, "owner": "RU", "name": "Москва" }
-  ]
-}
