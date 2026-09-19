@@ -3,7 +3,7 @@ import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.utils.ScreenUtils;
 
-public class MyGdxGame implements ApplicationListener {
+public class Main implements ApplicationListener {
 
     @Override
     public void create() {
