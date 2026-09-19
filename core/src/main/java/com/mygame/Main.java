@@ -10,8 +10,8 @@ public class Main implements ApplicationListener {
     Texture img; 
     @Override
     public void create() {
-        batch = new SpriteBatch;
-        img = new Texture ("images/images1.png")
+        batch = new SpriteBatch();
+        img = new Texture ("images/images1.png");
     }
 
     @Override
