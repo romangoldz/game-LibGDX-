@@ -25,7 +25,6 @@ public class Main implements ApplicationListener {
         batch.draw(img, 100, 100, 200, 200);
         ScreenUtils.clear(0.2f, 0.1f, 0.2f, 1f);
         batch.end();
-        }
     }
 
     @Override
